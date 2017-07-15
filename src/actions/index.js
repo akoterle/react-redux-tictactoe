@@ -1,6 +1,6 @@
 export const move = (id) => ({
   type: 'MOVE',
-  squareId: id
+  move: id
 })
 
 export const browse = (id) => ({

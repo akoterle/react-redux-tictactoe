@@ -10,7 +10,7 @@ const initialState = {
 const game = (state = initialState, action) => {
   switch (action.type) {
     case 'MOVE':
-      return updateGameState({ ...state }, action.squareId)
+      return updateGameState({ ...state }, action.move)
     case 'BROWSE': 
       return backToGameState({ ...state }, action.step)
     default:
