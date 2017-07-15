@@ -1,9 +1,9 @@
 import React from 'react'
-import TicTacToe from '../containers/TicTacToe'
+import GameApp from '../containers/GameApp'
 
 const App = () => (
   <div>
-    <TicTacToe />
+    <GameApp />
   </div>
 )
 
